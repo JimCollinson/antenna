@@ -1,0 +1,30 @@
+# Private configuration - DO NOT COMMIT
+config.yaml
+*.env
+.env
+
+# Signals and content - stays in your private workspace
+Signals/
+Context/
+Daily Review/
+Learning/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
